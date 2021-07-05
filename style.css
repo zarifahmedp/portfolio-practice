@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+}
+.section {
+    display: flex;
+    padding-bottom: 300px;
+}
+.width {
+width: 50%;
+}
+.button {
+    text-decoration: none;
+background-image: linear-gradient(orange ,red);
+padding: 10px 40px;
+color: white;
+border-radius: 5px;
+font-weight: 700 ;
+}
+
+.first-back-img {
+    background-image: url(images/top-banner.png);
+background-repeat: no-repeat;
+}
+.background2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+.box-model {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding: 20px;
+border-radius: 10px;
+
+}
+.back-img {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#line {
+    border-left: 7px solid;
+border-image:linear-gradient(red,rgb(85, 85, 255));
+border-image-slice: 1;
+}
+
+#anotherline {
+    border-left: 7px solid;
+border-image:linear-gradient(rgb(0, 162, 255),rgb(0, 0, 136));
+border-image-slice: 1;
+}
